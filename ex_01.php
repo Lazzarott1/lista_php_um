@@ -2,7 +2,9 @@
 Uma empresa de engenharia precisa automatizar alguns cálculos utilizados em seus
 projetos.
 Crie uma função chamada calcularFormula() que receba dois números e aplique a
-seguinte fórmula: -->
+seguinte fórmula: (x2+y2)÷(x+y)
+Retorne ao resultado da operação.
+Caso a soma seja igual a zero, informe que não é possível realizar a divisão-->
 
 <?php
 
