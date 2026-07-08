@@ -7,14 +7,15 @@ Além disso, exiba a quantidade de caracteres existentes na string original. -->
 
 <?php
 
-function inverterTexto($string){
+function inverterEContarTexto($string){
 
-$stringseparada =  str_split($string)
-
-for($c = 0; $c  ) 
+echo "A quantidade de caracteres na string é: ". strlen($string) . "<br>";
+echo "A string invertida é: " . strrev($string) . "<br>";
 
 }
 
-$string ="microondas"
+$string ="microondas";
+
+inverterEContarTexto($string);
 
 ?>
